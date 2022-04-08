@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./age-display.component.css']
 })
 export class AgeDisplayComponent implements OnInit {
+  age: number = 50;
 
   constructor() { }
 

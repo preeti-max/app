@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./name-display.component.css']
 })
 export class NameDisplayComponent implements OnInit {
+  name:string ="Preeti";
 
   constructor() { }
 
